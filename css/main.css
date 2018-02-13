@@ -97,7 +97,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
+   .col-md-12.header-cover {
+    background: url(http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/wood.jpg);
+}
+.top-logo-holder img {
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    display: block;
+}
+h1.logo-text {
+    font-size: 5vw;
+    text-align: center;
+    color: #e8e4d8;
+    margin: 30px;
+    font-family: 'Cookie';
+}
 
 
 
