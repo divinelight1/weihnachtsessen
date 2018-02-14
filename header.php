@@ -24,5 +24,13 @@
               <img src="http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/header.png" alt="logo">
             </div>
             <h1 class="logo-text"><?php bloginfo('name'); ?></h1>
-          </div>
-        </div>
+
+            <div class="main-nav">
+              <nav>
+
+                  <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                </ul>
+              
+            </div>
+          </div><!-- /header-cover -->
+        </div><!-- /header-wrapper -->

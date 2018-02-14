@@ -113,11 +113,41 @@ h1.logo-text {
     margin: 30px;
     font-family: 'Cookie';
 }
+h1.logo-text {
+    font-size: 5vw;
+    text-align: center;
+    color: #e8e4d8;
+    margin: 30px;
+    font-family: 'Cookie';
+    letter-spacing: 6px;
+}
+html.no-js {
+    background: url(http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/bg.jpg);
+}
+.menu li {
+    display: inline;
 
-
-
-
-
+}
+.menu{
+  margin: 0 auto;
+width: fit-content;
+}
+.menu ul{
+  padding-left: 0;
+}
+.main-nav {
+    margin: 20px 30px;
+}
+ul#menu-mainmenu li a {
+    font-size: 3vw;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+ul#menu-mainmenu li a:hover {
+    font-weight: bold;
+}
 
 
 
