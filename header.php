@@ -21,7 +21,7 @@
         <div class="header-wrapper">
           <div class="col-md-12 header-cover">
             <div class="top-logo-holder">
-              <img src="http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/header.png" alt="logo">
+              <a class="home-link" href="<?php echo get_home_url(); ?>"><img src="http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/header.png" alt="logo"></a>
             </div>
             <a class="home-link" href="<?php echo get_home_url(); ?>"><h1 class="logo-text"><?php bloginfo('name'); ?></h1></a>
 
@@ -29,7 +29,7 @@
               <nav>
 
                   <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-                </ul>
+                </nav>
 
             </div>
           </div><!-- /header-cover -->
