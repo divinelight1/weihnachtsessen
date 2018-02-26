@@ -124,6 +124,9 @@ h1.logo-text {
 html.no-js {
     background: url(http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/bg.jpg);
 }
+body{
+  background: url(http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/bg.jpg);
+}
 .menu li {
     display: inline;
 
@@ -217,6 +220,28 @@ a.weiter-button {
     padding: 10px 30px;
     text-transform: capitalize;
     font-size: 18px;
+}
+nav.tickets-nav ul {
+    /* padding-left: 0 !important; */
+    list-style: none;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Cookie';
+    font-size: 3em;
+    background: url(http://webdesignstudio.website/weihnachtsessen/wp-content/uploads/2018/02/vijenac.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 170px;
+}
+nav.tickets-nav a {
+    text-decoration: none;
+    color: #ff4545;
+}
+nav.tickets-nav a:hover {
+    text-decoration: none;
+    color: #4e783d;
 }
 
 
