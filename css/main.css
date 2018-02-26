@@ -191,7 +191,33 @@ ul#menu-extra-nav {
 img.aligncenter {
     max-width: 100%;
 }
-
+.uber-border {
+    margin-top: 70px;
+    border: 2px solid red;
+    padding: 30px 30px 50px;
+}
+h3.main-title {
+    font-family: 'Cookie';
+    font-size: 3em;
+}
+p.main-date {
+    font-family: 'Cookie';
+    font-size: 1.5em;
+}
+p.event-paragraph {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 16px;
+}
+a.weiter-button {
+    font-family: 'Raleway';
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 10px 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+}
 
 
 
