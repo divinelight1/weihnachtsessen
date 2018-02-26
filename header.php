@@ -9,6 +9,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300i,400,400i,500i,700,700i&amp;subset=latin-ext" rel="stylesheet">
         <?php wp_head(); ?>
     </head>
     <body>
